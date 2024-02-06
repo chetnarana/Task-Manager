@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TaskManager" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+<!--        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--        <item name="android:statusBarColor">@color/black</item>-->
+        <style name="CardViewStyle" parent="Widget.Material3.CardView.Outlined">
+            <item name="shapeAppearanceOverlay"></item>
+    </style>
+    <style name="CutShape" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily" >cut</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+
+</resources>
